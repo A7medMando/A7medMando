@@ -41,11 +41,12 @@ I specialize in:
 ### 🚀 Featured Projects
 
 #### 🔵 [Project Two](https://a7medmando.github.io/project-2/)
-> أول مشروع بورتفوليو باستخدام HTML و CSS
+
+> "My first personal portfolio built with pure HTML and CSS."
 
 #### 🟢 [A7medMando Portfolio](https://a7medmando.github.io/A7medMando/)  
-> موقع تجريبي يوضح مهاراتك الثانية
 
+> "A demo website showcasing my additional front-end skills."
 ---
 
 ### 📬 Contact Me
