@@ -1,4 +1,4 @@
-## Hey 👋, I'm AHMed Ali!
+## HEY 👋, I'M AHMed Ali!
 
 <a href='https://www.facebook.com/a7medsalama7/'><img align='left' alt="facebook" src="https://cdn.jsdelivr.net/npm/simple-icons@v5/icons/facebook.svg" height='18px'/></a>
 <a href='https://x.com/A7Med1959570118'><img align='left' alt="twitter" src="https://cdn.jsdelivr.net/npm/simple-icons@v5/icons/twitter.svg" height='18px'/></a>
