@@ -4,133 +4,271 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css">
-  <link rel="stylesheet" href="css/style/style.css">
-  <title>Ahmed Ali - Front End Developer</title>
+  <title>Food Lover</title>
+  <link rel="stylesheet" href="style/style.css">
+  <!--Font awsome-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-<header>
-    <a href="#" class="logo" >AHMed Ali </a>
-    <nav class="naveigation" >
-      <a href="#Services">Services</a>
-      <a href="#Projects">Projects</a>
-      <a href="#Contact">Contact</a>
-    </nav>
-</header>
-<section class="main">
-  <div>
-    <h2>Hello, I'M AHMED Ali<br><span>Front End </span></h2>
-    <h3>I am a website designer </h3>
-    <a href="#Projects" class="main-btn" >View My Work</a>
-    <div class="social-icons" >
-   <a href="https://www.facebook.com/a7medsalama7/"><i class="fa-brands fa-facebook"></i></a>
-   <a href="https://www.instagram.com/a7med_ali_7_?igsh=MWVrZTk2ZmRxcXR3dg=="><i class="fa-brands fa-instagram"></i></a>
-   <a href="https://x.com/A7Med1959570118"><i class="fa-brands fa-x-twitter"></i></a>
-    </div>
-  </div>
-</section>
-<section class="cards" id="Services" >
-  <h2 class="title" >Services</h2>
-  <div class="content" >
-<div class="card" >
-  <div class="icon" >
-<i class="fa-solid fa-window-restore"></i>
-  </div>
-  <div class="info" >
-    <h3>Web Design</h3>
-    <p>I build responsive and user-friendly web interfaces using HTML, CSS, and JavaScript. My focus is on creating clean, interactive designs that work smoothly across all devices.</p>
-  
-  </div>
-</div>
-<div class="card" >
-  <div class="icon" >
-<i class="fa-brands fa-html5"></i>
-</div>
-  <div class="info" >
-    <h3>HTML Development</h3>
-    <p>I write clean, semantic HTML5 code to build the structure of modern, accessible, and responsive websites.</p>
-  </div>
-</div>
-<div class="card" >
-  <div class="icon" >
-<i class="fa-brands fa-css3"></i>
-</div>
-  <div class="info" >
-    <h3>CSS Styling</h3>
-    <p>I use modern CSS techniques to style websites with responsive layouts, animations, and visually appealing designs that enhance user experience.</p>
-  </div>
-</div>
-  </div>
-</section>
-<section class="Projects" id="Projects" >
-<h2 class="title" >Projects</h2>
-<div class="content" >
-  <div class="project-card" >
-<div class="project-image" >
-<img src="css/style/images/Untitled design.png" >
-</div>
-<div class="project-info" >
-<p class="project-infoo" >Build a portfolio website using HTML & CSS</p>
-<strong class="project-title" >
-<span>Web Design</span>
-<a href="#" class="more" >More Details</a>
-</strong>
-</div>
-  </div>
-    <div class="project-card" >
-<div class="project-image" >
-<img src="css/style/images/Untitled design.png" >
-</div>
-<div class="project-info" >
-<p class="project-infoo" >Build a portfolio website using HTML & CSS</p>
-<strong class="project-title" >
-<span>Web Design</span>
-<a href="#" class="more" >More Details</a>
-</strong>
-</div>
-  </div>
-    <div class="project-card" >
-<div class="project-image" >
-<img src="css/style/images/Untitled design.png" >
-</div>
-<div class="project-info" >
-<p class="project-infoo" >Build a portfolio website using HTML & CSS</p>
-<strong class="project-title" >
-<span>Web Design</span>
-<a href="#" class="more" >More Details</a>
-</strong>
-</div>
-  </div>
-</div>
-</section>
-<section class="cards-content" id="Contact" >
-<h2 class="title" >Let's work togehter </h2>
-  <div class="content" >
-<div class="card" >
-  <div class="icons" >
-<i class="fas fa-phone"></i>
-</div>
-  <div class="info" >
-    <h3>PHONE</h3>
-    <p>01001669346</p>
-  </div>
-</div>
-<div class="card" >
-  <div class="icons" >
-<i class="fa-solid fa-envelope"></i></div>
-  <div class="info" >
-    <h3>EMAIL</h3>
-    <p>a7medali513@gmail.com</p>
-  </div>
-</div>
-</section>
-<footer class="footer" >
-<p class="footer-title" >Copyrights @<span>AHMed Ali</span></p>
- <div class="social-icons" >
-   <a href="https://www.facebook.com/a7medsalama7/"><i class="fa-brands fa-facebook"></i></a>
-   <a href="https://www.instagram.com/a7med_ali_7_?igsh=MWVrZTk2ZmRxcXR3dg=="><i class="fa-brands fa-instagram"></i></a>
-   <a href="https://x.com/A7Med1959570118"><i class="fa-brands fa-x-twitter"></i></a>
-    </div>
-</footer>
+      <!-- Header Start -->
+    <header>
+        <div id="navbar">
+            <img src="./style/image/logo.png" alt="Food Lover Logo">
+            <nav role="navigation">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#menu">Menu</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="content">
+            <h1>Welcome To <span class="primary-text"> Food Lover </span> Restaurant</h1>
+            <p>Here you can find Most delicacies food in the world</p>
+            <a href="#contact" class="btn btn-primary">Book a Table</a>
+        </div>
+    </header>
+    <!-- Header End -->
+    <main>
+        <!-- About Section Start -->
+        <section id="about">
+            <div class="container">
+                <div class="title">
+                    <h2>The Food Lover history</h2>
+                    <p>More than 25+ years of experience</p>
+                </div>
+                <div class="about-content">
+                    <div>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur, quibusdam saepe natus
+                            numquam dolorum aliquam ducimus molestias tenetur? Quaerat, atque blanditiis. Debitis
+                            voluptatem
+                            sequi quibusdam nihil eveniet obcaecati soluta rem.</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat nesciunt aspernatur earum
+                            sequi
+                            consequatur, quasi iste quod nam esse adipisci neque commodi voluptate deserunt architecto
+                            rerum. Blanditiis labore sed sapiente.</p>
+                        <a href="#" class="btn btn-secondary">LEARN MORE</a>
+                    </div>
+                    <img src="./style/image/about_img.png" alt="Pizza">
+                </div>
+            </div>
+        </section>
+        <!-- About Section End -->
+        <!-- Offers Section Start -->
+        <section id="offers">
+            <div class="container">
+                <div class="title">
+                    <h2>Our Special Offers</h2>
+                    <p>More than 25+ years of experience</p>
+                </div>
+                <div class="offers-items">
+                    <div>
+                        <img src="./style/image/offer1.png" alt="Quattro Pasta">
+                        <div>
+                            <h3>Quattro Pasta</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam, quibusdam.</p>
+                            <p><del>$ 55.00</del> <span class="primary-text">$18.00</span></p>
+                        </div>
+                    </div>
+                    <div>
+                        <img src="./style/image/offer2.png" alt="Vegertarian Pasta">
+                        <div>
+                            <h3>Vegertarian Pasta</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam, quibusdam.</p>
+                            <p><del>$ 55.00</del> <span class="primary-text">$18.00</span></p>
+                        </div>
+                    </div>
+                    <div>
+                        <img src="./style/image/offer3.png" alt="Quattro Pasta">
+                        <div>
+                            <h3>Gluten-Free Pasta</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam, quibusdam.</p>
+                            <p><del>$ 55.00</del> <span class="primary-text">$18.00</span></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Offers Section End -->
+        <!-- Menu Section Start -->
+        <section id="menu">
+            <div class="container">
+                <div class="title">
+                    <h2>Our Special Menu</h2>
+                    <p>Order two and get third for free</p>
+                </div>
+                <div class="menu-items">
+                    <div class="menu-items-left">
+                        <div class="menu-item">
+                            <img src="./style/image/food1.png" alt="LASAL Cheese">
+                            <div>
+                                <h3>LASAL CHEESE <span class="primary-text">$18.00</span></h3>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At, explicabo.</p>
+                            </div>
+                        </div>
+                        <div class="menu-item">
+                            <img src="./style/image/food2.png" alt="JUMBO CRAB SHRIMP">
+                            <div>
+                                <h3>JUMBO CRAB SHRIMP <span class="primary-text">$24.00</span></h3>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At, explicabo.</p>
+                            </div>
+                        </div>
+                        <div class="menu-item">
+                            <img src="./style/image//food3.png" alt="KOKTAIL JUCIE">
+                            <div>
+                                <h3>KOKTAIL JUCIE <span class="primary-text">$12.00</span></h3>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At, explicabo.</p>
+                            </div>
+                        </div>
+                        <div class="menu-item">
+                            <img src="./style/image//food4.png" alt="CAPO STEAK">
+                            <div>
+                                <h3>CAPO STEAK <span class="primary-text">$60.00</span></h3>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At, explicabo.</p>
+                            </div>
+                        </div>
+                        <div class="menu-item">
+                            <img src="../style/image/food5.png" alt="ORGANIC FRUIT SALAD">
+                            <div>
+                                <h3>ORGANIC FRUIT SALAD <span class="primary-text">$8.00</span></h3>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At, explicabo.</p>
+                            </div>
+                        </div>
+                        <div class="menu-item">
+                            <img src="../style/image/food6.png" alt="CHEESE PIZZA">
+                            <div>
+                                <h3>CHEESE PIZZA <span class="primary-text">$18.00</span></h3>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At, explicabo.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="menu-items-right">
+                        <div class="menu-item">
+                            <img src="./style/image/food7.jpeg" alt="KOFTA MEAT">
+                            <div>
+                                <h3>KOFTA MEAT <span class="primary-text">$40.00</span></h3>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At, explicabo.</p>
+                            </div>
+                        </div>
+                        <div class="menu-item">
+                            <img src="./style/image/food8.jpeg" alt="SPANISH PIES">
+                            <div>
+                                <h3>SPANISH PIES <span class="primary-text">$14.00</span></h3>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At, explicabo.</p>
+                            </div>
+                        </div>
+                        <div class="menu-item">
+                            <img src="./style/image/food9.jpeg" alt="CHEESE TOST">
+                            <div>
+                                <h3>CHEESE TOST <span class="primary-text">$6.00</span></h3>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At, explicabo.</p>
+                            </div>
+                        </div>
+                        <div class="menu-item">
+                            <img src="./style/image/food10.jpeg" alt="FRUIT SALAD">
+                            <div>
+                                <h3>FRUIT SALAD <span class="primary-text">$14.00</span></h3>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At, explicabo.</p>
+                            </div>
+                        </div>
+                        <div class="menu-item">
+                            <img src="./style/image/food11.jpeg" alt="CHICKEN SHAWARMA">
+                            <div>
+                                <h3>CHICKEN SHAWARMA <span class="primary-text">$20.00</span></h3>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At, explicabo.</p>
+                            </div>
+                        </div>
+                        <div class="menu-item">
+                            <img src="./style/image/food12.jpeg" alt="MEGA CHEESE PIZZA">
+                            <div>
+                                <h3>MEGA CHEESE PIZZA <span class="primary-text">$30.00</span></h3>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At, explicabo.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="btn btn-third"><a href="#">EXPLORE FULL MENU</a></button>
+            </div>
+        </section>
+        <!-- Menu Section End -->
+        <!-- Daytime section start-->
+        <section id="daytime">
+            <div class="container">
+                <div class="daytime-items">
+                    <div class="daytime-item">
+                        <img src="./style/image/breckfastIcon.png" alt="Breakfast">
+                        <h3>Breakfast</h3>
+                        <p>8:00 am to 10:00 am</p>
+                    </div>
+                    <div class="daytime-item">
+                        <img src="./style/image/lunchIcon.png" alt="Lunch">
+                        <h3>Lunch</h3>
+                        <p>4:00 pm to 7:00 pm</p>
+                    </div>
+                    <div class="daytime-item">
+                        <img src="./style/image/dinnerIcon.png" alt="Dinner">
+                        <h3>Dinner</h3>
+                        <p>9:00 pm to 1:00 Am</p>
+                    </div>
+                    <div class="daytime-item">
+                        <img src="./style/image/dessertIcon.png" alt="dessert">
+                        <h3>Dessert</h3>
+                        <p>All day</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Daytime section end-->
+        <!-- Gallery Section Start -->
+         <section id="gallery">
+          <div class="container">
+            <h2>Our Food Gallery</h2>
+            <div class="img-gallery" >
+              <img src="./style/image/gallery1.jpeg" alt="Gallery Image 1">
+              <img src="./style/image/gallery2.jpeg" alt="Gallery Image 2">
+              <img src="./style/image/gallery3.jpeg" alt="Gallery Image 3">
+              <img src="./style/image/gallery4.jpeg" alt="Gallery Image 4">
+              <img src="./style/image/gallery5.jpeg" alt="Gallery Image 5">
+              <img src="./style/image/gallery6.jpeg" alt="Gallery Image 6">
+            </div>
+          </div>
+         </section>
+         <!-- Contact Section Start -->
+        <section id="contact">
+            <div class="container">
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <div>
+                            <h3>ADDRESS</h3>
+                            <p><i class="fa-solid fa-location-dot"></i> Faqous, Sharqia, Egypt</p>
+                            <p><i class="fa-solid fa-phone"></i> Phone: 01001669346</p>
+                            <p><i class="fa-regular fa-envelope"></i> a7medali513@gmail.com</p>
+                        </div>
+                        <div>
+                            <h3>WORKING HOURS</h3>
+                            <p>8:00 am to 11:00 pm on Weekdays</p>
+                            <p>11:00 am to 1:00 Am on Weekends</p>
+                        </div>
+                        <div>
+                            <h3>FOLLOW US</h3>
+                            <a href="https://www.facebook.com/a7medsalama7/"><i class="fa-brands fa-facebook-f"></i></a>
+                            <a href="https://x.com/A7Med1959570118"><i class="fa-brands fa-twitter"></i></a>
+                            <a href="https://www.instagram.com/a7med_ali_7_?igsh=MWVrZTk2ZmRxcXR3dg=="><i class="fa-brands fa-instagram"></i></a>
+                        </div>
+                    </div>
+                    <form>
+                        <input type="text" name="Name" id="name" placeholder="Full Name">
+                        <input type="email" name="email" id="email" placeholder="Email Address">
+                        <input type="text" name="subject" id="subject" placeholder="Subject">
+                        <textarea name="message" id="message" cols="30" rows="5" placeholder="Message"></textarea>
+                        <button type="submit" class="btn btn-third">SEND MESSAGE</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <!-- Contact Section End -->
+   </main>
 </body>
 </html>
