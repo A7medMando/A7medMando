@@ -40,10 +40,10 @@ I specialize in:
 
 ### 🚀 Featured Projects
 
-#### 🟢 [A7medMando Portfolio](https://a7medmando.github.io/A7medMando/)  
+#### 🔵 [Project Two](https://a7medmando.github.io/project-2/)
 > أول مشروع بورتفوليو باستخدام HTML و CSS
 
-#### 🔵 [Project Two](https://a7medmando.github.io/project-2/)  
+#### 🟢 [A7medMando Portfolio](https://a7medmando.github.io/A7medMando/)  
 > موقع تجريبي يوضح مهاراتك الثانية
 
 ---
